@@ -13,3 +13,9 @@
  *= require_tree .
  *= require_self
  */
+/* app/assets/stylesheets/application.scss */
+
+@import 'bootstrap';  /* Include Bootstrap first */
+@import 'custom';     /* Then include your custom styles */
+
+/* Add other imports or styles below if needed */
